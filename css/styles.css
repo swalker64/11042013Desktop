@@ -4,7 +4,14 @@
 }
 
 .gallery {
+	background: teal;
+}
+
+.container {
 	background: yellow;
+	margin: 0 auto;/*center aligns the page*/
+	overflow: auto;
+	width: 960px;/*"safe" number*/	
 }
 
 /*Navigation*/
@@ -16,4 +23,34 @@
 .gallery #gallery {
 	text-weight: bold;
 	background: red;	
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav li {
+	background: #fff;
+	padding: 20px;
+	list-style: none;
+	margin: 10px;
+	display: line-item;
+}
+
+/*Gallery*/
+section {
+	float: left;
+	margin: 20px;	
+	background: lightblue;
+	border:  10px solid white;
+	position: relative;
+}
+
+section h3 {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+	background: teal;
 }
