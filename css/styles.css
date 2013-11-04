@@ -1,1 +1,12 @@
 /* Stylesheet */
+body {
+	
+}
+
+.home {
+	background: orange;
+}
+
+.gallery {
+	background: green;
+}
