@@ -1,12 +1,19 @@
-/* Stylesheet */
-body {
-	
-}
-
+/* Body */
 .home {
 	background: orange;
 }
 
 .gallery {
-	background: green;
+	background: yellow;
+}
+
+/*Navigation*/
+.home #home {
+	text-weight: bold;
+	background: red;	
+}
+
+.gallery #gallery {
+	text-weight: bold;
+	background: red;	
 }
